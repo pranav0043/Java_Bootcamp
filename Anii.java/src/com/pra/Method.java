@@ -7,14 +7,11 @@ public class Method {
         int[] arr={1,2,3,56,78};
 //        System.out.print(Arrays());
         change(arr);
-
         System.out.println(Arrays.toString(arr));
 
 
     }
     static void change(int[] num){
-
-
         num[4]=10;
     }
 }
